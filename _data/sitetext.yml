@@ -1,0 +1,197 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Realize virtual contents in bits.
+    text: Collaborate to make virtual contents.
+    # button: Tell Me More
+    # buttonlink: "#services"
+
+  contents:
+    title: "CONTENTS"
+    text: "Laboratory to make digital NFT contents of virtual avatars with technology."
+    section: contents
+    list:
+      - title: "3D Avatar"
+        desc: "Avatar model is made of 3D architecture. VRM model specification is used to make an avatar. Avatar has face shape keys and body bones for motion capture."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "NFT"
+        desc: "Content is transferred between users by selling and buying and renting. All profit of deal and rent would be shared for content and service maker."
+        icon: fas fa-laptop
+      - title: "Co-work"
+        desc: "Anyone can join to make contents and get rewards. If you're interested in making contents, contact us. DAO will be used for collaboration."
+        icon: fab fa-markdown
+
+  services:
+    title: "Services"
+    text: "Laboratory to make online services for virtual contents."
+    section: services
+    list:
+      - title: "Communication"
+        desc: "People can use avatar as another me. People can do video chatting without revealing face and show avatar which mimics human face and body pose."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Social Media"
+        desc: "Avatar can be used for social media like twitter. People express face and body motion with avatar."
+        icon: fas fa-laptop
+      - title: "Creative Work"
+        desc: "People can make another image and video with avatar. Only writing some prompts can make a marvelous picture and animation."
+        icon: fab fa-markdown
+
+  markets:
+    title: "Markets"
+    text: "Virtual content can be sold and rent as NFT. People can own virtual content by blockchain technology."
+    section: markets
+    list:
+      - title: "Rent"
+        desc: "NFT can be rent to others. User can rend virtual contents for a day in a limited fee. Any rent record would be open."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Buy"
+        desc: "People can buy virtual content in opensea or other NFT markets. And also content owner can rend it."
+        icon: fas fa-laptop
+      - title: "Share"
+        desc: "Profit of selling and rending contents would be shared between content owner and servie maker."
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: portfolio
+    closebutton: "Close Project"
+
+  timeline:
+    title: "Timeline"
+    text: "Lorem ipsum timeline"
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Our Humble Beginnings"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "An Agency is Born"
+        year: "March 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Jekyll Theme is created"
+        year: "2019"
+        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Title"
+        year: "2009-2011"
+        desc: "Your description here, **Markdown** is fully supported."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Be Part <br> of Our <br> Story!"
+
+  about:
+    title: "About Us"
+    text: "our story"
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: about
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "OUR AMAZING TEAM"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Kay Garland"
+        role: "Lead Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Lead Marketer"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Lead Developer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Contact Us"
+    text: "Any question is OK. Just send a message."
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    # legal: "Privacy Policy"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
+    #   - url: https://github.com/raviriley/agency-jekyll-theme
+    #     icon: "fab fa-github"
+    #   - url: https://instagram.com
+    #     icon: "fab fa-instagram"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
