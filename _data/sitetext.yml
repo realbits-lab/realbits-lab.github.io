@@ -23,13 +23,13 @@ en: &DEFAULT_EN
     list:
       - title: "3D Avatar"
         desc: "Avatar model is made of 3D architecture. VRM model specification is used to make an avatar. Avatar has face shape keys and body bones for motion capture."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: fas fa-user-astronaut
       - title: "NFT"
         desc: "Content is transferred between users by selling and buying and renting. All profit of deal and rent would be shared for content and service maker."
-        icon: fas fa-laptop
+        icon: fas fa-pen
       - title: "Co-work"
         desc: "Anyone can join to make contents and get rewards. If you're interested in making contents, contact us. DAO will be used for collaboration."
-        icon: fab fa-markdown
+        icon: fas fa-briefcase
 
   services:
     title: "Services"
@@ -38,13 +38,13 @@ en: &DEFAULT_EN
     list:
       - title: "Communication"
         desc: "People can use avatar as another me. People can do video chatting without revealing face and show avatar which mimics human face and body pose."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: fas fa-comments
       - title: "Social Media"
         desc: "Avatar can be used for social media like twitter. People express face and body motion with avatar."
         icon: fas fa-laptop
       - title: "Creative Work"
         desc: "People can make another image and video with avatar. Only writing some prompts can make a marvelous picture and animation."
-        icon: fab fa-markdown
+        icon: fab fa-creative-commons
 
   markets:
     title: "Markets"
@@ -53,13 +53,13 @@ en: &DEFAULT_EN
     list:
       - title: "Rent"
         desc: "NFT can be rent to others. User can rend virtual contents for a day in a limited fee. Any rent record would be open."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: fas fa-retweet
       - title: "Buy"
         desc: "People can buy virtual content in opensea or other NFT markets. And also content owner can rend it."
-        icon: fas fa-laptop
+        icon: fas fa-shopping-cart
       - title: "Share"
         desc: "Profit of selling and rending contents would be shared between content owner and servie maker."
-        icon: fab fa-markdown
+        icon: fas fa-share
 
   portfolio:
     title: "Portfolio"
