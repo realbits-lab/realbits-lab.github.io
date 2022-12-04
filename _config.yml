@@ -15,10 +15,12 @@ author: realbits-lab
 # path: assets\img\clients\creative-market.jpg
 # height: 60 #height in px, defaults to 52px
 
-locale: "en-US" # See available languages in _data/sitetext.yml
+# See available languages in _data/sitetext.yml
+locale: "en-US"
 
 analytics:
-  google: #Google Analytics tracking code here
+  #Google Analytics tracking code here
+  google: 344860615
 
 collections:
 portfolio:
