@@ -1,14 +1,3 @@
-#
-# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
-#
-# Configuration: Add to _config.yml
-# locale: "en-US"  [YOUR PREFERRED LOCALE]
-#
-# How to use:
-# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
-
-# English (default)
-# -----------------
 en: &DEFAULT_EN
   header:
     title: Realize virtual contents in bits.
@@ -63,7 +52,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Contents, services, and markets portfolio with realbits."
     section: portfolio
     closebutton: "Close Project"
 

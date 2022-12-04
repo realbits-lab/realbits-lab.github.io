@@ -1,6 +1,6 @@
 <!-- Portfolio Modals -->
-{% for project in site.portfolio %}
-{% if site.locale and site.locale != "" and site.locale != nil %}
+{% for project in site.portfolio %} {% if site.locale and site.locale != "" and
+site.locale != nil %}
 <div
   class="portfolio-modal modal fade"
   id="p{{ forloop.index }}"
@@ -28,15 +28,17 @@
                 alt="{{ project.alt }}"
               />
               <p>{{ project.content }}</p>
-              <button
-                class="btn btn-primary"
-                data-dismiss="modal"
-                type="button"
-              >
-                <i class="fas fa-times"></i>
-                {{ site.data.sitetext[site.locale].portfolio.closebutton |
-                default: "Close Project" }}
-              </button>
+              <div class="modal-close-button">
+                <button
+                  class="btn btn-primary"
+                  data-dismiss="modal"
+                  type="button"
+                >
+                  <i class="fas fa-times"></i>
+                  {{ site.data.sitetext[site.locale].portfolio.closebutton |
+                  default: "Close Project" }}
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -78,8 +80,8 @@
                 type="button"
               >
                 <i class="fas fa-times"></i>
-                {{ site.data.sitetext.portfolio.closebutton |
-                default: "Close Project" }}
+                {{ site.data.sitetext.portfolio.closebutton | default: "Close
+                Project" }}
               </button>
             </div>
           </div>
@@ -88,6 +90,5 @@
     </div>
   </div>
 </div>
-{% endif %}
-{% endfor %}
+{% endif %} {% endfor %}
 <!-- End Portfolio Modals -->
