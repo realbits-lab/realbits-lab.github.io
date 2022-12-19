@@ -11,7 +11,7 @@ image: https://via.placeholder.com/400x300?text=TBD
 alt: image
 ---
 
-**Duddle** This project is under development.
+**Dulls** This project is under development.
 When ready, it would be open in the opensea market.
 
 - OpenSea: TBD

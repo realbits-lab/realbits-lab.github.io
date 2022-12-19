@@ -14,7 +14,5 @@ alt: image
 **Avame** service project is now under development.
 When ready, it would be open in service site.
 
-{:.list-inline}
-
 - Site: TBD
 - Discord: [#avame](https://discord.com/channels/1049501409755811940/1054219044703707196){:target="_blank"}
