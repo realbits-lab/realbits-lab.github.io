@@ -12,6 +12,9 @@
 
 - bundle add jekyll-agency
 - bundle install
+
+# run command to test server
+
 - bundle exec jekyll serve --trace
 
 # icon
