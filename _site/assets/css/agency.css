@@ -116,7 +116,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 
 .portfolio-modal .close-modal .lr .rl { /* Safari and Chrome */ z-index: 1052; width: 1px; height: 75px; /* IE 9 */ -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); background-color: #212529; }
 
-section#contact { background-color: #212529; background-image: url("../img/map.jpg"); background-repeat: no-repeat; background-position: center; }
+section#contact { background-color: #212529; background-image: url("../img/map.jpg"); background-repeat: repeat; background-position: center; }
 
 section#contact .section-heading { color: #fff; }
 
