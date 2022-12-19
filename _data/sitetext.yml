@@ -82,6 +82,8 @@ en: &DEFAULT_EN
     social:
       - url: https://discord.com/channels/1049501409755811940/1054219715347750922
         icon: "fab fa-discord"
+      - url: https://mirror.xyz/0x3851dacd8fA9F3eB64D69151A3597F33E5960A2F
+        icon: "fas fa-blog"
     #   - url: https://facebook.com
     #     icon: "fab fa-facebook-f"
     #   - url: https://linkedin.com
