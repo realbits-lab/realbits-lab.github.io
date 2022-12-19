@@ -78,10 +78,10 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    # legal: "Privacy Policy"
-    # social:
-    #   - url: https://twitter.com
-    #     icon: "fab fa-twitter"
+    legal: "Privacy Policy"
+    social:
+      - url: https://discord.com/channels/1049501409755811940/1054219715347750922
+        icon: "fab fa-discord"
     #   - url: https://facebook.com
     #     icon: "fab fa-facebook-f"
     #   - url: https://linkedin.com

@@ -14,7 +14,7 @@
           {% for link in site.data.sitetext[site.locale].footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
+            <a href="{{ link.url }}" target="_blank">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
             {% endif %}
@@ -47,7 +47,7 @@
           {% for link in site.data.sitetext.footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
-            <a href="{{ link.url }}">
+            <a href="{{ link.url }}" target="_blank">
               {% if link.icon %}<i class="{{ link.icon }}"></i>{% endif %}
             </a>
             {% endif %}
@@ -60,8 +60,8 @@
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
             <a href="legal"
-              >{{ site.data.sitetext.footer.legal | default:
-              "Privacy Policy" }}</a
+              >{{ site.data.sitetext.footer.legal | default: "Privacy Policy"
+              }}</a
             >
           </li>
         </ul>
