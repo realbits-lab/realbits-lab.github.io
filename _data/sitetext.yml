@@ -64,7 +64,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Any question is OK. Just send a message."
+    text: "Any question or proposal is OK. Just send a message."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
