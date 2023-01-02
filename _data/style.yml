@@ -6,5 +6,5 @@
 #Image Customization
 header-image: "../img/back.jpg"
 contact-image: "../img/map.jpg"
-#Font Awesome icon for portfolio grid when an item is hovered over
-#portfolio-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x
+#Font Awesome icon for project grid when an item is hovered over
+#project-icon: fas fa-expand-arrows-alt fa-3x #default: fas fa-plus fa-3x

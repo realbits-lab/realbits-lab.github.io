@@ -50,10 +50,10 @@ en: &DEFAULT_EN
         desc: "Profit of selling and rending contents would be shared between content owner and servie maker."
         icon: fas fa-share
 
-  portfolio:
-    title: "Portfolio"
-    text: "Contents, services, and markets portfolio with realbits."
-    section: portfolio
+  project:
+    title: "Project"
+    text: "Contents, services, and markets project with realbits."
+    section: project
     closebutton: "Close Project"
 
   about:

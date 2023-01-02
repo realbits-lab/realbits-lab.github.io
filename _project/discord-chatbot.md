@@ -2,12 +2,12 @@
 caption:
   title: Discord Chatbot
   subtitle: Service
-  thumbnail: ../assets/img/portfolio/chatbot-snapshot.png
+  thumbnail: ../assets/img/project/chatbot-snapshot.png
 
 # What displays when the item is clicked.
 title: Discord chatbot project for drawing image
 subtitle: User can draw image with prompt in discord channel with chatbot command /draw.
-image: ../assets/img/portfolio/chatbot-snapshot.png
+image: ../assets/img/project/chatbot-snapshot.png
 alt: image
 ---
 

@@ -17,8 +17,8 @@ en: &DEFAULT_EN
       section: services
     - title: "Markets"
       section: markets
-    - title: "Portfolio"
-      section: portfolio
+    - title: "Project"
+      section: project
     - title: "Contact"
       section: contact
 en-US:
